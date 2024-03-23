@@ -1,9 +1,7 @@
 """
 Given the head of a singly linked list, return true if it is a 
 palindrome or false otherwise.
-
 """
-
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -37,8 +35,6 @@ We could check the beginning and the end and then i+1 and j-1, but since its a s
 There's a algorithm to reverse the linkedlist
 """
 
-
-
 class Solution(object):
     def isPalindrome(self, head):
         """
@@ -66,11 +62,3 @@ class Solution(object):
             left = left.next
             right = right.next
         return True
-
-
-
-
-
-
-
-
