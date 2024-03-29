@@ -1,6 +1,6 @@
 """
 Given a binary array nums, 
-return the maximum length of a contiguous subarray 
+return the maximum length of a contiguous  
 with an equal number of 0 and 1.
 
 [0,1,0]
@@ -16,7 +16,7 @@ This initialization is crucial as it handles the case when there are equal numbe
 
 2.For each count value encountered during iteration, 
 the code checks if that count value is already present in the hashmap. 
-If it is, it calculates the length of the subarray with equal 0s and 1s by taking the difference between the current index i and the index stored in the hashmap for that count. This helps in finding subarrays with equal numbers of 0s and 1s.
+If it is, it calculates the length of the  with equal 0s and 1s by taking the difference between the current index i and the index stored in the hashmap for that count. This helps in finding s with equal numbers of 0s and 1s.
 
 """
 
